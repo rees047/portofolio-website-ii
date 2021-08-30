@@ -1,0 +1,157 @@
+:root {
+  --teal-color: #10a19b;
+  --pink-color: #fc5da7;
+  --white-color: #ffffff;
+  --light-teal-color: #90d4d0;
+  --light-pink-color: #ffd8e9;
+  --light-gray-color: #e4e5eb;  
+  --pointFive-em: 0.5em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, a{
+	color: var(--teal-color);
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: var(--pink-color);
+}
+
+body{
+	font-family: 'Raleway', serif;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited{
+	font-style: italic;
+}
+
+a:hover, a:focus{
+	color: var(--pink-color);
+}
+
+a:active{
+	font-weight: normal;
+}
+
+ul{
+	padding: 0;
+}
+
+li{
+	list-style-type: none;
+}
+
+#main-container{
+	flex: 1;
+	
+}
+
+.nav-bar{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.flex-container{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	border: 1px solid red;
+}
+
+.justify-content-changeable-header{
+	justify-content: space-between;
+}
+
+.justify-content-center{
+	justify-content: center;
+}
+
+.flex-child{
+	flex: 1;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-position-changeable-nav{
+	text-align: right;
+}
+
+.logo-container{
+	width: 17%;
+}
+
+.logo{
+	width: 100%;
+}
+
+.feature-container{
+	height: 100vh;
+	border: 1px solid green;
+}
+
+.feature-container:nth-child(odd){
+	background-color: #ecfefa;
+}
+
+.feature-container:nth-child(even){
+	background-color: #fff8f9;
+}
+
+.profile-portrait{
+	width: 47%;
+	border-radius: 50%;
+	margin-top: 2em;
+}
+
+.feature-content-container{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.text-content{
+	text-align: center;
+	line-height: 1.25;
+}
+
+.page-footer{
+	text-align: center;
+    vertical-align: middle;
+    padding-top: 1em;
+}
+
+.page-footer p, .page-footer div{
+	display: inline-block;	
+}
+
+.page-footer div a{
+	margin: 0 0.5em;
+}
+
+.feature-container::before { 
+	display: block; 
+	content: " "; 
+	margin-top: -126px; 
+	height: 126px; 
+	padding-top: 126px;
+	visibility: hidden; 
+	pointer-events: none;
+}
