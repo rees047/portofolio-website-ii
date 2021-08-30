@@ -14,17 +14,16 @@
 		<meta name="theme-color" content="#ffffff">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-		<link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" type="text/css" href="css/styles-media-query.css">
 		<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-		<script type="text/javascript" src="assets/slick/slick.min.js"></script>
 		<script type="text/javascript" src="js/scripts.js"></script>
 		<!--<link rel="stylesheet" type="text/css" href="css/styles.production.css">-->		
 		<!--<script src="js/tota11y.min.js"></script>-->
 	</head>
 	<body>
+
+
 		<div id="main-container">
 
 			<header class="flex-container justify-content-changeable-header nav-bar">
@@ -94,33 +93,73 @@
 
 				<div id="projects" class="feature-container">
 					<div class="feature-content-container">
-						<div id="carousel">
-							<img src="img/project-pokemon.PNG" alt="Project Pokemon">
-							<img src="img/project-meet-my-city.PNG" alt="Project Meet My Cty">
-							<img src="img/project-movie-client-react.PNG" alt="Project Movie Client React">
-							<img src="img/project-movie-client-angular.PNG" alt="Project Movie Client Angular">
+						<h1 class="text-center">Projects</h1>
+						<div class="flex-container justify-content-changeable-header">
+							<div class="flex-child project-card">
+								<img src="img/project-pokemon.PNG" alt="Project Pokemon" />
+								<div class="project-card-text-container">
+									<h3 class="project-card-title">Project Pokemon</h3>
+									<p>
+										A basic pokedex project made by using HTML, CSS and JQuery. This project highlights the use of an external API to get data and the use of Bootstrap CSS for design.
+									</p>
+									<a href="#">Show More</a>
+								</div>
+							</div>
+							<div class="flex-child project-card">
+								<img src="img/project-meet-my-city.PNG" alt="Project Meet My City" />
+								<div class="project-card-text-container">
+									<h3 class="project-card-title">Project Meet My City</h3>
+									<p>
+										A basic pokedex project made by using HTML, CSS and JQuery. This project highlights the use of an external API to get data and the use of Bootstrap CSS for design.
+									</p>
+									<a href="#">Show More</a>
+								</div>								
+							</div>
+							<div class="flex-child project-card">
+								<img src="img/project-movie-client-react.PNG" alt="Project Movie Client React" />
+								<div class="project-card-text-container">
+									<h3 class="project-card-title">Project Movie Client React</h3>
+									<p>
+										This project demonstrates the power of React JS while getting data from the previously made Movie API
+									</p>
+									<a href="#">Show More</a>
+								</div>
+							</div>
+							<div class="flex-child project-card">
+								<img src="img/project-movie-client-angular.PNG" alt="Project Movie Client Angular" />
+								<div class="project-card-text-container">
+									<h3 class="project-card-title">Project Movie Client Angular</h3>
+									<p>
+										This project demonstrates the power of Angular JS while getting data from the previously made Movie API
+									</p>
+									<a href="#">Show More</a>
+								</div>
+							</div>
 						</div>
-						<ul class="text-content">
-							<li>2021 - graduated career foundry</li>
-							<li>Achievement 1</li>
-							<li>Achievement 1</li>
-							<li>Achievement 1</li>
-							<li>Achievement 1</li>
-
-						</ul>
 					</div>
 				</div>
 
 				<div id="contact" class="feature-container">
-					<div class="feature-content-container">
-						<ul class="text-content">
-							<li>2021 - graduated career foundry</li>
-							<li>Achievement 1</li>
-							<li>Achievement 1</li>
-							<li>Achievement 1</li>
-							<li>Achievement 1</li>
+					<div class="feature-content-container text-center">
+						<h1>Contact Me</h1>
+						<p>I would love to hear from you</p>
+						<!-- modify this form HTML and place wherever you want your form -->
+						<div class="contact-form">
+							<form action="https://formspree.io/f/mqkwwekg" method="POST">
+								<input type="email" placeholder="Your Email" name="_replyto" required>
+								<input type="hidden" name="_subject" value="Contact request Github Portfolio" />
+								<textarea placeholder ="Type your message" name="message"></textarea required>
+								<!-- your other form fields go here -->
+								<button type="submit">Send</button>
+							</form>
+						</div>
 
-						</ul>
+						<h3>Don't want to send through the Contact Form?</h3>
+						<p>No worries, you can find me on</p>
+						<div class="social-media text-center">
+							<a href="https://github.com/rees047/portfolio-website" target="_blank"><img src="img/github_icon.svg" alt="github"></a>
+							<a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedin_icon.svg" alt="linkedin"></a>
+						</div>
 					</div>
 				</div>
 

@@ -11,10 +11,11 @@ function scrolltoView(){
 
 $( document ).ready(function() {
    scrolltoView();
-    $('#carousel').slick({
-        dots: true,
-        adaptiveHeight: true,
-        slidesToShow: 3,
-        slidesToScroll: 1
-    });
+
+
+
+
+  
+   
+
 });
