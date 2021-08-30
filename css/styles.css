@@ -59,13 +59,13 @@ li{
 	top: 0;
 	width: 100%;
 	background-color: #ffffff;
+	z-index: 1;
 }
 
 .flex-container{
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	border: 1px solid red;
 }
 
 .justify-content-changeable-header{
@@ -103,8 +103,7 @@ li{
 }
 
 .feature-container{
-	height: 100vh;
-	border: 1px solid green;
+	min-height: 100vh;
 }
 
 .feature-container:nth-child(odd){
@@ -146,7 +145,8 @@ li{
 	margin: 0 0.5em;
 }
 
-.feature-container::before { 
+/* not reliable - not responsive */
+/*.feature-container::before { 
 	display: block; 
 	content: " "; 
 	margin-top: -126px; 
@@ -154,4 +154,8 @@ li{
 	padding-top: 126px;
 	visibility: hidden; 
 	pointer-events: none;
+}*/
+
+.slick-prev, .slick-next, .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus{
+	background-color: #fc5da7;
 }
