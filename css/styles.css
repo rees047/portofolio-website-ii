@@ -213,3 +213,11 @@ img{
 	width: auto;
 	margin: 0 0.25em;
 }
+
+.modal-project p{
+	line-height: 1.5;
+}
+
+.normal-link a{
+	font-weight: normal;
+}

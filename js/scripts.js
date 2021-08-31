@@ -11,8 +11,5 @@ function scrolltoView(){
 
 $( document ).ready(function() {
    scrolltoView();
-    let url = document.location.href + '/modal-content.html';
-    //check if # is present, if yes then delete
-    console.log(url);
-    $('#modal-content').load(url);
+    $('#modal-content').load('modal-content.html');
 });
