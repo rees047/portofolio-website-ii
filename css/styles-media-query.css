@@ -37,7 +37,8 @@
         justify-content: center;
     }
 
-    .text-position-changeable-nav{
+    .text-position-changeable-nav,
+    .text-position-changeable-nav-logo{
         text-align: center;
     }
 

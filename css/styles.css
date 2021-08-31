@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6{
 
 body{
 	font-family: 'Raleway', serif;
+	line-height: 1.5;
 }
 
 a{
@@ -53,18 +54,7 @@ img{
 	width: 100%;
 }
 
-#main-container{
-	flex: 1;
-	
-}
-
-.nav-bar{
-	position: sticky;
-	top: 0;
-	width: 100%;
-	background-color: #ffffff;
-	z-index: 1;
-}
+/* --------------- GLOBAL CLASSES START --------------- */
 
 .flex-container{
 	display: flex;
@@ -72,18 +62,14 @@ img{
 	flex-wrap: wrap;
 }
 
-.justify-content-changeable-header{
-	justify-content: space-between;
-}
-
-.justify-content-center{
-	justify-content: center;
-}
-
 .flex-child{
 	flex: 1;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
+}
+
+.justify-content-center{
+	justify-content: center;
 }
 
 .text-right{
@@ -94,14 +80,39 @@ img{
 	text-align: center;
 }
 
+/* --------------- GLOBAL CLASSES END --------------- */
+/* --------------- NAVIGATION CLASSES START --------------- */
+
+#main-container{
+	flex: 1;
+}
+
+.nav-bar{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-color: #ffffff;
+	z-index: 1;
+}
+
+.justify-content-changeable-header{
+	justify-content: space-between;
+}
+
 .text-position-changeable-nav{
 	text-align: right;
+}
+
+.text-position-changeable-nav-logo{
+	text-align: left;
 }
 
 .logo-container{
 	width: 17%;
 }
 
+/* --------------- NAVIGATION CLASSES END --------------- */
+/* --------------- CONTENT CLASSES START --------------- */
 .feature-container{
 	min-height: 100vh;
 }
@@ -114,12 +125,6 @@ img{
 	background-color: #ffdbe9; /* #ffddda;  #fff8f9;*/
 }
 
-.profile-portrait{
-	width: 47%;
-	border-radius: 50%;
-	margin-top: 2em;
-}
-
 .feature-content-container{
 	width: 80%;
 	padding-top: 0.5em;
@@ -127,20 +132,15 @@ img{
 	margin-left: auto;
 }
 
-.text-content{
-	text-align: center;
-	line-height: 1.25;
+/* ----------- Profile Classes ----------- */
+
+.profile-portrait{
+	width: 47%;
+	border-radius: 50%;
+	margin-top: 2em;
 }
 
-.page-footer{
-	text-align: center;
-    padding-top: 1em;
-}
-
-.page-footer p, .page-footer div{
-	display: inline-block;	
-	vertical-align: middle;
-}
+/* ----------- Project Classes ----------- */
 
 .project-card{
 	flex: 0 0 33.33%;
@@ -163,6 +163,8 @@ img{
 	margin-top: 0;
 }
 
+/* ----------- Contact Classes ----------- */
+
 .contact-form{
 	width: 33.33%;
 	margin: 1em auto 0;
@@ -179,6 +181,10 @@ img{
 	background-color: #fcb6d7;
 }
 
+.contact-form input{
+	height: 2.25em;
+}
+
 .contact-form textarea{
 	resize: none;
 	height: 120px;
@@ -188,10 +194,6 @@ img{
 .contact-form input::placeholder, .contact-form textarea::placeholder {
 	color: var(--white-color);
 	opacity: 1
-}
-
-.contact-form input{
-	height: 2.25em;
 }
 
 .contact-form button[type="submit"]{
@@ -209,10 +211,24 @@ img{
 	border-color: var(--teal-color);
 }
 
+/* ----------- Footer Classes ----------- */
+.page-footer{
+	text-align: center;
+    padding-top: 1em;
+}
+
+.page-footer p, .page-footer div{
+	display: inline-block;	
+	vertical-align: middle;
+}
+
 .social-media img{
 	width: auto;
 	margin: 0 0.25em;
 }
+
+/* --------------- CONTENT CLASSES END --------------- */
+/* --------------- MODAL CLASSES START --------------- */
 
 .modal-project p{
 	line-height: 1.5;
