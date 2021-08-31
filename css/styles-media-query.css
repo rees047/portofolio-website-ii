@@ -37,10 +37,6 @@
         justify-content: center;
     }
 
-    .flex-child{
-        flex: auto;
-    }
-
     .text-position-changeable-nav{
         text-align: center;
     }
