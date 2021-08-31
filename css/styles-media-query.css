@@ -42,6 +42,11 @@
         text-align: center;
     }
 
+    #profile .flex-child,
+    #projects .flex-cihld{
+        flex: auto;
+    }
+
     .contact-form{
         width: 100%;
     }
