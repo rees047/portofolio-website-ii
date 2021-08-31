@@ -63,6 +63,28 @@
 
 			<div class="content-container">
 
+				<!-- animation from: https://www.sliderrevolution.com/resources/css-text-animation/ -->
+				<div id="banner" class="feature-container">
+					<div class="feature-content-container text-center">
+						<h3>click the letters</h3>
+						<div class="flex-container justify-content-center">
+							<div class="banner-img-container">
+								<img src="img/logo.png" alt="The web is a cat's playground">
+								<em>the web is a cat's playground</em>
+							</div>
+							<div class="word">
+							<span>W</span>
+							<span>E</span>
+							<span>L</span>
+							<span>C</span>
+							<span>O</span>
+							<span>M</span>
+							<span>E</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
 				<div id="profile" class="feature-container">
 					<div class="feature-content-container">
 						<div class="flex-container justify-content-center text-center">
@@ -70,7 +92,7 @@
 								<img src="img/profile.jpg" alt="A photo of me" class="profile-portrait">
 							</div>
 							<div class="flex-child">
-								<h1 class="quote"><em><q>I want to do something that gives my life meaning. Something that allows me to not just to feed my passion, but also my soul.</q></em></h1>
+								<h1><em><q>I want to do something that gives my life meaning. Something that allows me to not just to feed my passion, but also my soul.</q></em></h1>
 							</div>
 							<div class="text-center">
 								<p> The quote above describes what is programming to me. It is what I truly want to do with all my being. I love every aspect of it. All the nitty gritty and tedious working of tinkering on a computer web development is what feeds my passion and soul. I have experience in retail management and administrative work however that is just scratching the surface. What I want to go back to being is a programmer.</p>
@@ -87,12 +109,43 @@
 
 				<div id="achievements" class="feature-container">
 					<div class="feature-content-container">
-						<ul class="text-center">
-							<li>2021 - graduated career foundry</li>
-							<li>Achievement 1</li>
-							<li>Achievement 1</li>
-							<li>Achievement 1</li>
-							<li>Achievement 1</li>
+						<h1 class="text-center">Achievements</h1>
+						<ul class="success-list">
+							<li>
+								<strong>2021 Currently</strong> Building a website for food recipes
+							</li>
+							<li>
+								<strong>2021 Feb - 2021 Sept: </strong> Took  up Full Stack Immersion Course @ Career Foundry
+							</li>
+							<li>
+								<strong>2018</strong> Relaunch Astoria Cat Rescue website using wordpress with an addition of main website for potential donors and volunteers
+							</li>
+							<li>
+								<strong>2018 May:</strong> Completed HTML 5.x: HTMLL 5 and CSS Fundamentals Certificate
+							</li>
+							<li>
+								<strong>2014 Web Developer</strong> @ Odusee Philippines
+							</li>
+							<li>
+								<strong>2013 QA Team Lead</strong> @ Odusee Philippines
+							</li>
+						</ul>
+						<h1 class="text-center">Skills</h1>
+						<ul class="success-list">
+							<li>
+								<strong>Proficient in</strong> HTML, CSS Javascript, Jquery</li>
+							<li>
+								<strong>Knowledge in</strong> Tortoise SVN, Github Repository
+							</li>
+							<li>
+								<strong>Knowledge in</strong> React, Angular JS, Statamic, NodeJS, MySQ, MongoDB
+							</li>
+							<li>
+								<strong>Familiar with</strong> Software Development Life Cycle
+							</li>
+							<li>
+								<strong>Familiar with</strong> Software Testing
+							</li>
 
 						</ul>
 					</div>
@@ -102,45 +155,72 @@
 					<div class="feature-content-container">
 						<h1 class="text-center">Projects</h1>
 						<div class="flex-container justify-content-changeable-header">
+
 							<div class="flex-child project-card">
 								<img src="img/project-pokemon.PNG" alt="Project Pokemon" />
 								<div class="project-card-text-container">
-									<h3 class="project-card-title">Project Pokemon</h3>
+									<h3 class="project-card-title">Pokemon</h3>
 									<p>
 										A basic pokedex project made by using HTML, CSS and JQuery. This project highlights the use of an external API to get data and the use of Bootstrap CSS for design.
 									</p>
 									<a href="#modal-pokemon" rel="modal:open">Show More</a>
 								</div>
 							</div>
+
+							<div class="flex-child project-card">
+								<img src="img/project-chat-app.png" alt="Project Chat App" />
+								<div class="project-card-text-container">
+									<h3 class="project-card-title">Chat App</h3>
+									<p>
+										A chat app created with native-react-app. This app is very similar to messaging services such as facebook messenger and the like. 
+									</p>
+									<a href="#modal-chat-app" rel="modal:open">Show More</a>
+								</div>
+							</div>
+
 							<div class="flex-child project-card">
 								<img src="img/project-meet-my-city.PNG" alt="Project Meet My City" />
 								<div class="project-card-text-container">
-									<h3 class="project-card-title">Project Meet My City</h3>
+									<h3 class="project-card-title">Meet My City</h3>
 									<p>
 										A basic pokedex project made by using HTML, CSS and JQuery. This project highlights the use of an external API to get data and the use of Bootstrap CSS for design.
 									</p>
 									<a href="#modal-meet-my-city" rel="modal:open">Show More</a>
 								</div>								
 							</div>
+							
 							<div class="flex-child project-card">
 								<img src="img/project-movie-client-react.PNG" alt="Project Movie Client React" />
 								<div class="project-card-text-container">
-									<h3 class="project-card-title">Project Movie Client React</h3>
+									<h3 class="project-card-title">Movie Client React</h3>
 									<p>
 										This project demonstrates the power of React JS while getting data from the previously made Movie API
 									</p>
 									<a href="#modal-movie-client-react" rel="modal:open">Show More</a>
 								</div>
 							</div>
+
+							<div class="flex-child project-card">
+								<img src="img/project-movie-api.PNG" alt="Project Movie API" />
+								<div class="project-card-text-container">
+									<h3 class="project-card-title">Movie API</h3>
+									<p>
+										To make a secure API database using NodeJS, MongoDB, passport jwt, json webtoken and following CORS policy.
+									</p>
+									<a href="#modal-movie-api" rel="modal:open">Show More</a>
+								</div>
+							</div>
+
 							<div class="flex-child project-card">
 								<img src="img/project-movie-client-angular.PNG" alt="Project Movie Client Angular" />
 								<div class="project-card-text-container">
-									<h3 class="project-card-title">Project Movie Client Angular</h3>
+									<h3 class="project-card-title">Movie Client Angular</h3>
 									<p>
 										This project demonstrates the power of Angular JS while getting data from the previously made Movie API
 									</p>
 									<a href="#modal-movie-client-angular" rel="modal:open">Show More</a>
 								</div>
+
 							</div>
 						</div>
 					</div>
@@ -155,7 +235,7 @@
 							<form action="https://formspree.io/f/mqkwwekg" method="POST">
 								<input type="email" placeholder="Your Email" name="_replyto" required>
 								<input type="hidden" name="_subject" value="Contact request Github Portfolio" />
-								<textarea placeholder ="Type your message" name="message"></textarea required>
+								<textarea placeholder ="Type your message" name="message"></textarea>
 								<!-- your other form fields go here -->
 								<button type="submit">Send</button>
 							</form>
@@ -163,9 +243,19 @@
 
 						<h3>Don't want to send through the Contact Form?</h3>
 						<p>No worries, you can find me on</p>
-						<div class="social-media text-center">
-							<a href="https://github.com/rees047/portfolio-website" target="_blank"><img src="img/github_icon.svg" alt="github"></a>
-							<a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedin_icon.svg" alt="linkedin"></a>
+						<div class="social-media">
+							<a href="https://github.com/rees047/" target="_blank" title="Github">
+								<img src="img/icon-github.svg" alt="Github">
+							</a>
+							<a href="https://www.linkedin.com/in/tseptimo/" target="_blank" title="LinkedIn">
+								<img src="img/icon-linkedin.svg" alt="LinkedIn">
+							</a>
+							<a href="https://careerfoundry.slack.com/team/U01LVU50ST1" target="_blank" title="Slack">
+								<img src="img/icon-slack.svg" alt="Slack">
+							</a>
+							<a href="https://stackoverflow.com/users/15938672/rees" target="_blank" title="Stack Overflow">
+								<img src="img/icon-stack-overflow.svg" alt="Stack Overflow">
+							</a>
 						</div>
 					</div>
 				</div>
@@ -173,10 +263,8 @@
 			</div>
 
 			<footer class="page-footer">
-				<p>Find me on</p>
 				<div class="social-media">
-					<a href="https://github.com/rees047/portfolio-website" target="_blank"><img src="img/github_icon.svg" alt="github"></a>
-					<a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedin_icon.svg" alt="linkedin"></a>
+					<h4 class="teal-text"><q>Today's experience will always be different than tomorrow's. The World Wide Web is so vast, there is always something new to learn.</q></h6>
 				</div>
 			</footer>
 

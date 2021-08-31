@@ -4,6 +4,9 @@
         width: 40%;
     }
    
+    .banner-img-container {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 301px) and (max-width: 600px) {
@@ -19,6 +22,10 @@
 
     .project-card{
         flex: 0 0 50%;
+    }
+
+    .banner-img-container {
+        width: 50%;
     }
 }
 
