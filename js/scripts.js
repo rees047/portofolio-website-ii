@@ -12,4 +12,20 @@ function scrolltoView(){
 $( document ).ready(function() {
    scrolltoView();
     $('#modal-content').load('modal-content.html');
+
+    let android_spacer = $('<div/>', {
+        'class' : 'android_spacer'
+    }).css({
+        'width'  : '100%',
+        'height' :  '200px'
+    }).appendTo($('#contact'));
+    
+    $('#contact textarea').on('focus', function() {
+        $(this).after(android_spacer);
+    });
+    
+    $('#contact textarea').on('blur', function() {
+        $('.android_spacer').remove();
+    });
+
 });
